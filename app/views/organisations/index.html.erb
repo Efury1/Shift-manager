@@ -5,7 +5,7 @@
 <table>
   <thead>
     <tr>
-      <th>Employee name</th>
+      <th>name</th>
       <th>Hourly rate</th>
       <th colspan="3"></th>
     </tr>
@@ -14,7 +14,7 @@
   <tbody>
     <% @organisations.each do |organisation| %>
       <tr>
-        <td><%= organisation.employee_name %></td>
+        <td><%= organisation.name %></td>
         <td><%= organisation.hourly_rate %></td>
         <td><%= link_to 'Show', organisation %></td>
         <td><%= link_to 'Edit', edit_organisation_path(organisation) %></td>
