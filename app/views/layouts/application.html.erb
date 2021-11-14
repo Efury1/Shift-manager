@@ -10,10 +10,13 @@
 
   </head>
   <body>
+
+    <%=render 'pages/header' %>
     <div class="container">
+      <br/>
       <%= yield %>
     </div>
-    
+
     <title>Tanda</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
