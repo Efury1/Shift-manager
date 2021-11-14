@@ -64,6 +64,6 @@ class OrganisationsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def organisation_params
-      params.require(:organisation).permit(:employee_name, :hourly_rate)
+      params.require(:organisation).permit(:name, :hourly_rate)
     end
 end

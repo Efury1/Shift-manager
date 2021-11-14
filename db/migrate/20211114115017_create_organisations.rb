@@ -1,7 +1,7 @@
 class CreateOrganisations < ActiveRecord::Migration[6.1]
   def change
     create_table :organisations do |t|
-      t.string :employee_name
+      t.string :name
       t.integer :hourly_rate
 
       t.timestamps
