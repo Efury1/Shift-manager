@@ -21,10 +21,14 @@
         <td><%= link_to 'Edit', edit_organisation_path(organisation) %></td>
         <td><%= link_to 'Destroy', organisation, method: :delete, data: { confirm: 'Are you sure?' } %>
       </tr>
-    <% end %>
+    <% end %> 
   </tbody>
 </table>
 
 <br>
 
-<%= link_to 'New Organisation', new_organisation_path, class:"btn btn-secondary"%>
+
+<%= link_to 'Create Company', new_organisation_path, class:"btn btn-secondary"%>
+
+
+<%= link_to 'Join Organisation', new_organisation_path, class:"btn btn-secondary"%>

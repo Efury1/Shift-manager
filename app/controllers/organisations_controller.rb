@@ -1,6 +1,12 @@
 class OrganisationsController < ApplicationController
   before_action :set_organisation, only: %i[ show edit update destroy ]
 
+  def join
+    @organisation_id = organisation.find params[:id]
+    current_user.update_attribute(:organisation_id, @organisation.id)
+    #redirect_to @organisation
+  end
+
   # GET /organisations or /organisations.json
   def index
     @organisations = Organisation.all
