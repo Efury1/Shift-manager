@@ -11,13 +11,14 @@
   </head>
   <body>
 
-    <%=render 'pages/header' %>
-    <div class="container">
+    <%=render 'pages/header' if current_user %>
+    
+    <div class="container" >
       <br/>
       <%= yield %>
     </div>
 
-    <title>Tanda</title>
+    <title>Adnat</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
