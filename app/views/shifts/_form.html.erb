@@ -14,25 +14,25 @@
   <div class="field form-group">
     <%= form.label :user_id %>
     <%= form.text_field :user_id,
-    class:"form-control"%>
+    class:"form-control",
+      placeholder: "User ID"%>
   </div>
 
   <div class="field form-group">
     <%= form.label :start_shift %>
     <%= form.datetime_select :start_shift %>
-    class:"form-control"%>
   </div>
 
   <div class="field form-group">
     <%= form.label :end_shift %>
     <%= form.datetime_select :end_shift %>
-    class:"form-control"%>
   </div>
 
   <div class="field form-group">
     <%= form.label :break_length %>
-    <%= form.number_field :break_length %>
-    class:"form-control"%>
+    <%= form.number_field :break_length,
+    class:"form-control",
+    placeholder: "Shift Break"%>
   </div>
 
   <div class="actions">
