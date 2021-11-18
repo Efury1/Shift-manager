@@ -10,6 +10,8 @@
       </ul>
     </div>
   <% end %>
+  
+  <p> Your user id is: <%=current_user.id %> </p>
 
   <div class="field form-group">
     <%= form.label :user_id %>
@@ -27,6 +29,7 @@
     <%= form.label :end_shift %>
     <%= form.datetime_select :end_shift %>
   </div>
+
 
   <div class="field form-group">
     <%= form.label :break_length %>
