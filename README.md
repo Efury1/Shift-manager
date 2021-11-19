@@ -11,6 +11,11 @@ bundle install
 ## Server
 rails s
 
+## Not finished
+Password mailer
+Hours worked need to minus break
+Shift Cost
+
 ## Application
 <a href="https://ibb.co/7QnV9VY"><img src="https://i.ibb.co/m09txtD/tanda5.png" alt="tanda5" border="0"></a>
 <br>
