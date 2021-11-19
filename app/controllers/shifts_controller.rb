@@ -1,6 +1,7 @@
 class ShiftsController < ApplicationController
   before_action :set_shift, only: %i[ show edit update destroy ]
 
+  
   # GET /shifts or /shifts.json
   def index
     @shifts = Shift.all
