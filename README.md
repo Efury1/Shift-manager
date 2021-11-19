@@ -9,6 +9,10 @@ Shifts Page
 Organisation List
 <br>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/gvtKbDB/tanda2.png" alt="tanda2" border="0"></a>
+<br>
+Main Page
+Please Note: Page message needs to be changes, as it doesn't reflect application functionality
+<br>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/1GMSwgC/tanda1.png" alt="tanda1" border="0"></a>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/26pn7BH/tanda.png" alt="tanda" border="0"></a>
 <a href="https://ibb.co/TtwXW5B"><img src="https://i.ibb.co/GRdwHjv/tan6.png" alt="tan6" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>img host</a><br />
