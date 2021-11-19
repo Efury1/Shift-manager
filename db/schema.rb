@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_11_18_054607) do
+ActiveRecord::Schema.define(version: 2021_11_19_021211) do
 
   create_table "companies", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -30,9 +30,9 @@ ActiveRecord::Schema.define(version: 2021_11_18_054607) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "organisation_id"
-    t.integer "user__id"
+    t.integer "user_id"
     t.index ["organisation_id"], name: "index_organisations_on_organisation_id"
-    t.index ["user__id"], name: "index_organisations_on_user__id"
+    t.index ["user_id"], name: "index_organisations_on_user_id"
   end
 
   create_table "shifts", force: :cascade do |t|

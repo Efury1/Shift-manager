@@ -2,9 +2,9 @@ class OrganisationsController < ApplicationController
   before_action :set_organisation, only: %i[ show edit update destroy ]
 
   def join
-    @organisation_id = organisation.find params[:id]
+    @organisation = Organisation.find params[:organisation_id]
     current_user.update_attribute(:organisation_id, @organisation.id)
-    #redirect_to @organisation
+    redirect_to @organisation
   end
 
   # GET /organisations or /organisations.json
@@ -14,6 +14,15 @@ class OrganisationsController < ApplicationController
 
   # GET /organisations/1 or /organisations/1.json
   def show
+    users = Organisation.find(params[:id]).users
+    @shifts = []
+    users.each { |user|
+      user.shifts.each { |shift|
+        unless @shifts.include? shift
+          @shifts << shift
+        end
+      }
+    }
   end
 
   # GET /organisations/new
