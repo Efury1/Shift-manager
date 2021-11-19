@@ -22,7 +22,7 @@ Sign up Page
 <br>
 Login Page
 <br>
-<a href="https://ibb.co/TtwXW5B"><img src="https://i.ibb.co/GRdwHjv/tan6.png" alt="tan6" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>img host</a><br />
+<a href="https://ibb.co/TtwXW5B"><img src="https://i.ibb.co/GRdwHjv/tan6.png" alt="tan6" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'><br />
  <br>
  New shift
  <br>
