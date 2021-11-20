@@ -29,7 +29,7 @@ Sign up Page
 Login Page
 <br>
 <br>
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/gvtKbDB/tanda2.png" alt="tanda2" border="0"></a>
+<a href="https://ibb.co/59G1SK6"><img src="https://i.ibb.co/BPcfQnt/main-page.png" alt="main-page" border="0"></a>
 <br>
 <br>
 Main Page
