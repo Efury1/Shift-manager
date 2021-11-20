@@ -8,8 +8,9 @@ Install rails: gem install rails
 ## Install dependencies 
 bundle install
 
-## Server
-rails s
+## Run application
+run server: rails s
+In browser type: localhost:3000
 
 ## Not finished
 Password mailer <br>
