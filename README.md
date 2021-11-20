@@ -27,7 +27,9 @@ Users can currently only leave by joining another organisation. Therefore, organ
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/26pn7BH/tanda.png" alt="tanda" border="0"></a>
 <br>
 <br>
+
 ## Login Page
+
 <br>
 <br>
 <a href="https://ibb.co/59G1SK6"><img src="https://i.ibb.co/BPcfQnt/main-page.png" alt="main-page" border="0"></a>
