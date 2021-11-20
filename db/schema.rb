@@ -10,7 +10,41 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_11_14_031502) do
+ActiveRecord::Schema.define(version: 2021_11_19_021211) do
+
+  create_table "companies", force: :cascade do |t|
+    t.string "email", default: "", null: false
+    t.string "encrypted_password", default: "", null: false
+    t.string "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["email"], name: "index_companies_on_email", unique: true
+    t.index ["reset_password_token"], name: "index_companies_on_reset_password_token", unique: true
+  end
+
+  create_table "organisations", force: :cascade do |t|
+    t.string "name"
+    t.integer "hourly_rate"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "organisation_id"
+    t.integer "user_id"
+    t.index ["organisation_id"], name: "index_organisations_on_organisation_id"
+    t.index ["user_id"], name: "index_organisations_on_user_id"
+  end
+
+  create_table "shifts", force: :cascade do |t|
+    t.datetime "start_shift"
+    t.datetime "end_shift"
+    t.integer "break_length"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id"
+    t.string "username"
+    t.index ["user_id"], name: "index_shifts_on_user_id"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -20,8 +54,12 @@ ActiveRecord::Schema.define(version: 2021_11_14_031502) do
     t.datetime "remember_created_at"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "username"
+    t.integer "organisation_id"
     t.index ["email"], name: "index_users_on_email", unique: true
+    t.index ["organisation_id"], name: "index_users_on_organisation_id"
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
+    t.index ["username"], name: "index_users_on_username", unique: true
   end
 
 end
