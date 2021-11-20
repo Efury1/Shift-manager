@@ -12,9 +12,9 @@ bundle install
 rails s
 
 ## Not finished
-Password mailer
-Hours worked need to minus break
-Shift Cost
+Password mailer <br>
+Hours worked needs to formatted differently <br>
+Hours worked needs a $ symbol <br>
 
 ## Application
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/1GMSwgC/tanda1.png" alt="tanda1" border="0"></a>
