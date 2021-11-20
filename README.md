@@ -16,8 +16,9 @@ In browser type: localhost:3000
 Password mailer <br>
 Hours worked needs to formatted differently <br>
 Hours worked needs a $ symbol <br>
+Users can currently only leave by joing another organisation. Organisations need a leave button <br>
 
-## Application
+## Application Pictures
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/1GMSwgC/tanda1.png" alt="tanda1" border="0"></a>
 <br>
 Sign up Page
