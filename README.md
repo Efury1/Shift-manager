@@ -35,7 +35,7 @@ Login Page
 Main Page
 <br>
 <br>
-<a href="https://ibb.co/7QnV9VY"><img src="https://i.ibb.co/m09txtD/tanda5.png" alt="tanda5" border="0"></a>
+<a href="https://ibb.co/f97mtYQ"><img src="https://i.ibb.co/xYQVGS3/Bobs-Burger.png" alt="Bobs-Burger" border="0"></a>
 <br>
 <br>
 Shifts Page
