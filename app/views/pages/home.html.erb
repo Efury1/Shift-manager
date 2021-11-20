@@ -1,11 +1,8 @@
 
 <% if current_user %>
 <h1><%= current_user.username %></h1>
-<p>You are not a member of any organisations. <br>
-Join an exisiting one or create a new one. </p>
 <%= link_to "Log Out", destroy_user_session_path, method: :delete%>
 <% else %>
-
 <title>Get started</title>
 <body>
 <div class="container">
@@ -17,7 +14,6 @@ Join an exisiting one or create a new one. </p>
              <form>
              <%= link_to "Sign Up", new_user_registration_path %>
              <%= link_to "Sign In", new_user_session_path %>
-                
              </form>
          </div>
          <div class="card-footer">
@@ -25,7 +21,6 @@ Join an exisiting one or create a new one. </p>
                 By Eliza Fury
              </div>
          </div>
-     </div>
  </div>
 </div>
 </body>
