@@ -35,22 +35,30 @@ Users can currently only leave by joining another organisation. Therefore, organ
 <a href="https://ibb.co/59G1SK6"><img src="https://i.ibb.co/BPcfQnt/main-page.png" alt="main-page" border="0"></a>
 <br>
 <br>
+
 ## Main Page
+
 <br>
 <br>
 <a href="https://ibb.co/f97mtYQ"><img src="https://i.ibb.co/xYQVGS3/Bobs-Burger.png" alt="Bobs-Burger" border="0"></a>
 <br>
 <br>
+
 ## Shifts Page
+
 <br>
 <br>
 <a href="https://ibb.co/s5FwkZt"><img src="https://i.ibb.co/n3DcZFR/tanda3.png" alt="tanda3" border="0"></a>
 <br>
 <br>
+
 ## Organisation List
+
 <br>
 <br>
 <a href="https://ibb.co/TtwXW5B"><img src="https://i.ibb.co/GRdwHjv/tan6.png" alt="tan6" border="0"></a>
 <br>
+
 ## New shift
+
 <br>
