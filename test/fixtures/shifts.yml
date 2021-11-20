@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: MyString
+  start_shift: 2021-11-15 14:38:06
+  end_shift: 2021-11-15 14:38:06
+  break_length: 1
+
+two:
+  user_id: MyString
+  start_shift: 2021-11-15 14:38:06
+  end_shift: 2021-11-15 14:38:06
+  break_length: 1
