@@ -27,9 +27,9 @@
 
     <% hours_worked = 0 %>
     <% @shifts.each do |shift| %>
-      <%= shiftLength = (shift.end_shift - shift.start_shift).to_i/1.hours %>
-      <%= hoursWorked = shiftLength - (shift.break_length).to_i %>
-      <%= shiftCost = hoursWorked * @organisation.hourly_rate %>
+      <% shiftLength = (shift.end_shift - shift.start_shift).to_i/1.hours %>
+      <% hoursWorked = shiftLength - (shift.break_length).to_i %>
+      <% shiftCost = hoursWorked * @organisation.hourly_rate %>
       <tr>
         <td><%= shift.user_id %></td>
         <td><%= shift.start_shift %></td>
