@@ -1,15 +1,15 @@
 # README
 
 ## Set up
-Check ruby version: ruby -v
-Install ruby: rubyinstaller.org
-Install rails: gem install rails
+Check ruby version: ruby -v <br>
+Install ruby: rubyinstaller.org <br>
+Install rails: gem install rails <br>
 
 ## Install dependencies 
 bundle install
 
 ## Run application
-run server: rails s
+run server: rails s <br>
 In browser type: localhost:3000
 
 ## Not finished
