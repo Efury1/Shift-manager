@@ -37,8 +37,6 @@ Shifts Page
 <br>
 Organisation List
 <br>
-Please Note: Page message needs to be changed, as it doesn't reflect application functionality
-<br>
 <a href="https://ibb.co/TtwXW5B"><img src="https://i.ibb.co/GRdwHjv/tan6.png" alt="tan6" border="0"></a>
  <br>
  New shift
