@@ -1,71 +1,72 @@
 
 <% if current_user %>
-<div class="container">
-<h2><%= current_user.username %></h2>
-<div class="row">
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-<div class="text-field-wrapper mb-60">
+    <div class="container">
+    <h2><%= current_user.username %></h2>
+    <div class="row">
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+    <div class="text-field-wrapper mb-60">
     <div class="field-inner">
-        <div class="text-field">
-            <h4>Authentication of user</h4>
-            <p>Users are prompted to log in and create an account. A limation is users are unable to use forgot password link.</p>
-        </div>
+    <div class="text-field">
+        <h4>Authentication of user</h4>
+        <p>Users are prompted to log in and create an account. A limation is users are unable to use forgot password link.</p>
     </div>
-</div>
-</div>
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-<div class="our-services-wrapper mb-60">
+    </div>
+    </div>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+    <div class="our-services-wrapper mb-60">
     <div class="field-inner">
-        <div class="text-field">
-            <h4>Organisations</h4>
-            <p>Users have the ability to join an organisation, edit an organisation and view shifts related to that organisation. A limation is that when a user doesn't belong to an organisation this user isn't informed on main page.</p>
-        </div>
+    <div class="text-field">
+        <h4>Organisations</h4>
+        <p>Users have the ability to join an organisation, leave an organisation, edit an organisation and view shifts related to that organisation. A limation is that when a user doesn't belong to an organisation this user isn't informed on main page.</p>
     </div>
-</div>
-</div>
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-<div class="text-field-wrapper mb-60">
+    </div>
+    </div>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+    <div class="text-field-wrapper mb-60">
     <div class="field-inner">
-        <div class="our-services-text">
-            <h4>Shifts</h4>
-            <p>Breaks are unpaid and subtracted off shift length to determine hours works. Users have the ability to add shifts, delete shifts and edit shifts. A limitation is the hours worked isn't formatted to be as readable as it should be.</p>
-        </div>
+    <div class="our-services-text">
+        <h4>Shifts</h4>
+        <p>Breaks are unpaid and subtracted off shift length to determine hours works. Users have the ability to add shifts, delete shifts and edit shifts. A limitation is the hours worked isn't formatted to be as readable as it should be.</p>
     </div>
-</div>
-</div>
-</div>
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-<div class="text-field-wrapper mb-60">
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+    <div class="text-field-wrapper mb-60">
     <div class="field-inner">
-        <div class="our-services-text">
-            <h4>Optional Features</h4>
-            <p>Users can modify and delete existing shifts. <br>
-               Users can change their own name, email address or password.</p>
-        </div>
+    <div class="our-services-text">
+        <h4>Optional Features</h4>
+        <p>Users can modify and delete existing shifts. <br>
+        Users can change their own name, email address or password.</p>
     </div>
-</div>
-</div>
-<%= link_to "Log Out", destroy_user_session_path, method: :delete%>
-<% else %>
-<title>Get started</title>
-<body>
-<div class="container">
-<div class="d-flex justify-content-center h-100">
-<div class="card">
-<div class="card-header">
-<h3>Welcome to Andat</h3>
-<div class="card-body">
-<form>
-<%= link_to "Sign Up", new_user_registration_path %>
-<%= link_to "Sign In", new_user_session_path %>
-</form>
-</div>
-<div class="card-footer">
-<div class="d-flex justify-content-center links">
-By Eliza Fury
-</div>
-</div>
-</div>
-</div>
-</body>
+    </div>
+    </div>
+    </div>
+    <%= link_to "Log Out", destroy_user_session_path, method: :delete%>
+
+    <% else %>
+    <title>Get started</title>
+    <body>
+        <div class="container">
+        <div class="d-flex justify-content-center h-100">
+        <div class="card">
+        <div class="card-header">
+            <h3>Welcome to Andat</h3>
+            <div class="card-body">
+        <form>
+            <%= link_to "Sign Up", new_user_registration_path %>
+            <%= link_to "Sign In", new_user_session_path %>
+        </form>
+        </div>
+            <div class="card-footer">
+            <div class="d-flex justify-content-center links">
+            By Eliza Fury
+        </div>
+        </div>
+        </div>
+        </div>
+        </body>
 <% end %>
