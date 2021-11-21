@@ -1,7 +1,7 @@
 # README
 
 ### Shift Manager
-<a href="https://youtu.be/sKajPLzpna0">Watch video</a> <br>
+<a href="https://youtu.be/sKajPLzpna0">Video shows previous implementation</a> <br>
 First Ruby on Rails application. <br>
 Application allows users to join organisations, manage shifts and view pay.
 
@@ -81,5 +81,7 @@ Users and organisations can have many shifts.
 When you create a new shift you have to type in a user ID. If user ID doesn't exist shifts can't be made.
 <br>
 
-
+<a href="https://ibb.co/wzQYtSb"><img src="https://i.ibb.co/d5p7ZP3/passwordreset.png" alt="passwordreset" border="0"></a>
+## Reset password <br>
+When password is reset, you can see password token by going into command line.
 
