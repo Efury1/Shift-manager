@@ -44,11 +44,10 @@ Password reset shouldn't just be available through command line.
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/26pn7BH/tanda.png" alt="tanda" border="0"></a>
 <br>
 <br>
-
 ### Login Page
 
 <a href="https://ibb.co/wzQYtSb"><img src="https://i.ibb.co/d5p7ZP3/passwordreset.png" alt="passwordreset" border="0"></a>
-## Reset password <br>
+### Reset password <br>
 When password is reset, you can see password token by going into command line and typing rails c then User.last.signed_in(purpose: "password_reset")
 
 <br>
