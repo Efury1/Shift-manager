@@ -1,5 +1,8 @@
 # README
 
+### Shift Manager
+Let users join organisations, manage shifts and view pay.
+
 ### Getting Started
 If you don't have ruby <br>
 Install ruby: rubyinstaller.org <br>
