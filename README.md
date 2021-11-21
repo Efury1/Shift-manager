@@ -21,7 +21,6 @@ rails s <br>
 In browser type: localhost:3000
 
 ### Not finished
-Password mailer <br>
 Hours worked needs to formatted differently <br>
 Hours worked needs a $ symbol <br>
 User shifts need to be destroyed once user leaves organisation <br>
@@ -33,6 +32,7 @@ Make code more readable <br>
 Stylize sign up and login pages<br>
 Delete code that isn't being used<br>
 In shift creation users shouldn't be able to implement a shift that has an end data before start date <br>
+Password reset shouldn't just be available through command line.
 
 ### Application Pictures
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/1GMSwgC/tanda1.png" alt="tanda1" border="0"></a>
