@@ -29,6 +29,7 @@ User shifts need to be destroyed once user leaves organisation <br>
 Add comments <br>
 Make code more readable <br>
 Stylize sign up and login pages<br>
+Delete code that isn't being used<br>
 
 ### Application Pictures
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/1GMSwgC/tanda1.png" alt="tanda1" border="0"></a>
