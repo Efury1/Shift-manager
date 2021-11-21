@@ -8,33 +8,33 @@ If you don't have ruby <br>
 Install ruby: rubyinstaller.org <br>
 Install rails: gem install rails <br>
 
-## To get started with the application, clone the repo and install need gems: <br>
+### To get started with the application, clone the repo and install need gems: <br>
 bundle install <br>
 
-## Next, migrate your database: <br>
+### Next, migrate your database: <br>
 rails db:migrate <br>
 
-## Run the application in the local server <br>
+### Run the application in the local server <br>
 rails s <br>
 In browser type: localhost:3000
 
-## Not finished
+### Not finished
 Password mailer <br>
 Hours worked needs to formatted differently <br>
 Hours worked needs a $ symbol <br>
 Users can currently only leave by joining another organisation. Therefore, organisations need a leave button <br>
 
-## Application Pictures
+### Application Pictures
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/1GMSwgC/tanda1.png" alt="tanda1" border="0"></a>
 <br>
-## Sign up Page
+### Sign up Page
 <br>
 <br>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/26pn7BH/tanda.png" alt="tanda" border="0"></a>
 <br>
 <br>
 
-## Login Page
+### Login Page
 
 <br>
 <br>
@@ -42,7 +42,7 @@ Users can currently only leave by joining another organisation. Therefore, organ
 <br>
 <br>
 
-## Main Page
+### Main Page
 
 <br>
 <br>
@@ -50,7 +50,7 @@ Users can currently only leave by joining another organisation. Therefore, organ
 <br>
 <br>
 
-## Shifts Page
+### Shifts Page
 
 <br>
 <br>
@@ -58,13 +58,13 @@ Users can currently only leave by joining another organisation. Therefore, organ
 <br>
 <br>
 
-## Organisation List
+### Organisation List
 
 <br>
 <br>
 <a href="https://ibb.co/TtwXW5B"><img src="https://i.ibb.co/GRdwHjv/tan6.png" alt="tan6" border="0"></a>
 <br>
 
-## New shift
+##3 New shift
 
 <br>
