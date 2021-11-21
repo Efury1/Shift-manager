@@ -2,6 +2,7 @@
 
 ### Shift Manager
 First Ruby on Rails application. <br>
+<a href="https://youtu.be/sKajPLzpna0">Watch video</a>
 Application allows users to join organisations, manage shifts and view pay.
 
 ### Getting Started
@@ -81,5 +82,4 @@ When you create a new shift you have to type in a user ID. If user ID doesn't ex
 <br>
 
 
-<a href="https://youtu.be/sKajPLzpna0">Watch video</a>
 
