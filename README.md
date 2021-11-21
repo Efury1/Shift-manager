@@ -72,6 +72,6 @@ Delete code that isn't being used<br>
 <a href="https://ibb.co/TtwXW5B"><img src="https://i.ibb.co/GRdwHjv/tan6.png" alt="tan6" border="0"></a>
 <br>
 
-##3 New shift
+## New shift
 
 <br>
