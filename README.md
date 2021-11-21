@@ -5,11 +5,6 @@
 First Ruby on Rails application. <br>
 Application allows users to join organisations, manage shifts and view pay.
 
-### Getting Started
-If you don't have ruby <br>
-Install ruby: rubyinstaller.org <br>
-Install rails: gem install rails <br>
-
 ### To get started with the application, clone the repo and install needed gems: <br>
 bundle install <br>
 
@@ -27,9 +22,6 @@ User shifts need to be destroyed once user leaves organisation <br>
 Bug: when deleting shifts user is redirected to wrong path <br>
 
 ### Potential Improvements
-Add comments <br>
-Make code more readable <br>
-Stylize sign up and login pages<br>
 Delete code that isn't being used<br>
 In shift creation users shouldn't be able to implement a shift that has an end data before start date <br>
 Password reset shouldn't just be available through command line.
