@@ -24,6 +24,7 @@ Password mailer <br>
 Hours worked needs to formatted differently <br>
 Hours worked needs a $ symbol <br>
 User shifts need to be destroyed once user leaves organisation <br>
+Bug: when deleting shifts user is redirected to wrong path <br>
 
 ### Potential Improvements
 Add comments <br>
