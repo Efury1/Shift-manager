@@ -2,7 +2,7 @@
 
 ### Shift Manager
 First Ruby on Rails application. <br>
-<a href="https://youtu.be/sKajPLzpna0">Watch video</a>
+<a href="https://youtu.be/sKajPLzpna0">Watch video</a> <br>
 Application allows users to join organisations, manage shifts and view pay.
 
 ### Getting Started
