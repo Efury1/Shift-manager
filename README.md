@@ -1,7 +1,6 @@
 # README
 
 ### Shift Manager
-<a href="https://youtu.be/sKajPLzpna0">Video shows previous implementation</a> <br>
 First Ruby on Rails application. <br>
 Application allows users to join organisations, manage shifts and view pay.
 
@@ -16,7 +15,6 @@ rails s <br>
 In browser type: localhost:3000
 
 ### Not finished
-Hours worked needs to formatted differently <br>
 Hours worked needs a $ symbol <br>
 User shifts need to be destroyed once user leaves organisation <br>
 Bug: when deleting shifts user is redirected to wrong path <br>
