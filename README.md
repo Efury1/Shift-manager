@@ -83,5 +83,5 @@ When you create a new shift you have to type in a user ID. If user ID doesn't ex
 
 <a href="https://ibb.co/wzQYtSb"><img src="https://i.ibb.co/d5p7ZP3/passwordreset.png" alt="passwordreset" border="0"></a>
 ## Reset password <br>
-When password is reset, you can see password token by going into command line.
+When password is reset, you can see password token by going into command line and typing rails c then User.last.signed_in(purpose: "password_reset")
 
