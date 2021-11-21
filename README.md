@@ -78,3 +78,5 @@ Users and organisations can have many shifts.
 ## New shift
 When you create a new shift you have to type in a user ID. If user ID doesn't exist shifts can't be made.
 <br>
+
+https://youtu.be/EFD_BKHzl3g
