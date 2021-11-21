@@ -1,7 +1,8 @@
 # README
 
 ### Shift Manager
-Let users join organisations, manage shifts and view pay.
+First Ruby on Rails application. <br>
+Application allows users to join organisations, manage shifts and view pay.
 
 ### Getting Started
 If you don't have ruby <br>
