@@ -30,7 +30,7 @@ Add comments <br>
 Make code more readable <br>
 Stylize sign up and login pages<br>
 Delete code that isn't being used<br>
-In shift creation users shouldn't be able to implement a shift that has an end data before start data <br>
+In shift creation users shouldn't be able to implement a shift that has an end data before start date <br>
 
 ### Application Pictures
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/1GMSwgC/tanda1.png" alt="tanda1" border="0"></a>
