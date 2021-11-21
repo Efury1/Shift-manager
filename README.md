@@ -55,7 +55,8 @@ When password is reset, you can see password token by going into command line an
 <a href="https://ibb.co/59G1SK6"><img src="https://i.ibb.co/BPcfQnt/main-page.png" alt="main-page" border="0"></a>
 <br>
 <br>
-### Main Page
+
+### Main Page <br>
 Main page explains application functionality and any unfinished tasks. User also have the ability to logout on this page.
 Once logged in users about to access the navbar.
 
@@ -64,7 +65,8 @@ Once logged in users about to access the navbar.
 <a href="https://ibb.co/f97mtYQ"><img src="https://i.ibb.co/xYQVGS3/Bobs-Burger.png" alt="Bobs-Burger" border="0"></a>
 <br>
 <br>
-### Shifts Page
+
+### Shifts Page <br>
 Users and organisations can have many shifts. 
 
 <br>
@@ -72,13 +74,15 @@ Users and organisations can have many shifts.
 <a href="https://ibb.co/s5FwkZt"><img src="https://i.ibb.co/n3DcZFR/tanda3.png" alt="tanda3" border="0"></a>
 <br>
 <br>
-### Organisation List
+
+### Organisation List 
 
 <br>
 <br>
 <a href="https://ibb.co/TtwXW5B"><img src="https://i.ibb.co/GRdwHjv/tan6.png" alt="tan6" border="0"></a>
 <br>
-### New shift
+
+### New shift <br>
 When you create a new shift you have to type in a user ID. If user ID doesn't exist shifts can't be made.
 <br>
 
