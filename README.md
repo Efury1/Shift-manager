@@ -8,7 +8,7 @@ If you don't have ruby <br>
 Install ruby: rubyinstaller.org <br>
 Install rails: gem install rails <br>
 
-### To get started with the application, clone the repo and install need gems: <br>
+### To get started with the application, clone the repo and install needed gems: <br>
 bundle install <br>
 
 ### Next, migrate your database: <br>
