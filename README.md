@@ -78,7 +78,7 @@ Users and organisations can have many shifts.
 <br>
 <a href="https://ibb.co/TtwXW5B"><img src="https://i.ibb.co/GRdwHjv/tan6.png" alt="tan6" border="0"></a>
 <br>
-## New shift
+### New shift
 When you create a new shift you have to type in a user ID. If user ID doesn't exist shifts can't be made.
 <br>
 
