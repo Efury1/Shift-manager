@@ -1,10 +1,18 @@
 
 <% if current_user %>
-<h2>Welcome <%= current_user.username %></h2>
+
+
 <div class="box">
 <div class="container">
 <div class="row">
-			 
+
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <div class="box-part text-center">
+    <div class=container4><h2>Welcome <%= current_user.username %></h2></div>
+    <%= link_to "Log Out", destroy_user_session_path, method: :delete%>
+</div>
+
+</div>
 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 <div class="box-part text-center">
     <div class="title">
@@ -48,8 +56,6 @@
         <span>Users can modify and delete existing shifts. </span>
     </div>
     </div>
-    <%= link_to "Log Out", destroy_user_session_path, method: :delete%>
-
 </div>	 
 				
 <% else %>
