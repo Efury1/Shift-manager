@@ -14,8 +14,7 @@ rails db:migrate <br>
 rails s <br>
 In browser type: localhost:3000
 
-### Not finished
-Hours worked needs a $ symbol <br>
+### Not finished <br>
 User shifts need to be destroyed once user leaves organisation <br>
 Bug: when deleting shifts user is redirected to wrong path <br>
 
