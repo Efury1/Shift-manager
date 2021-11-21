@@ -24,6 +24,11 @@ Hours worked needs to formatted differently <br>
 Hours worked needs a $ symbol <br>
 User shifts need to be destroyed once user leaves organisation <br>
 
+### Potential Improvements
+Add comments <br>
+Make code more readable <br>
+Stylize sign up and login pages<br>
+
 ### Application Pictures
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/1GMSwgC/tanda1.png" alt="tanda1" border="0"></a>
 <br>
