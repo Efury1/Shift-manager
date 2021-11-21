@@ -7,6 +7,12 @@ class OrganisationsController < ApplicationController
     redirect_to @organisation
   end
 
+  def leave
+    @organisation = Organisation.find params[:organisation_id]
+    current_user.update_attribute(:organisation_id, nil)
+    redirect_to @organisation
+  end
+
   # GET /organisations or /organisations.json
   def index
     @organisations = Organisation.all
