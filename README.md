@@ -50,6 +50,8 @@ Delete code that isn't being used<br>
 <br>
 
 ### Main Page
+Main page explains application functionality and any unfinished tasks. User also have the ability to logout on this page.
+Once logged in users about to access the navbar.
 
 <br>
 <br>
@@ -58,7 +60,7 @@ Delete code that isn't being used<br>
 <br>
 
 ### Shifts Page
-
+Users and organisations can have many shifts. 
 <br>
 <br>
 <a href="https://ibb.co/s5FwkZt"><img src="https://i.ibb.co/n3DcZFR/tanda3.png" alt="tanda3" border="0"></a>
@@ -73,5 +75,5 @@ Delete code that isn't being used<br>
 <br>
 
 ## New shift
-
+When you create a new shift you have to type in a user ID. If user ID doesn't exist shifts can't be made.
 <br>
