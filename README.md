@@ -52,6 +52,11 @@ Password reset shouldn't just be available through command line.
 <br>
 <br>
 
+<a href="https://ibb.co/wzQYtSb"><img src="https://i.ibb.co/d5p7ZP3/passwordreset.png" alt="passwordreset" border="0"></a>
+## Reset password <br>
+When password is reset, you can see password token by going into command line and typing rails c then User.last.signed_in(purpose: "password_reset")
+
+
 ### Main Page
 Main page explains application functionality and any unfinished tasks. User also have the ability to logout on this page.
 Once logged in users about to access the navbar.
@@ -81,7 +86,4 @@ Users and organisations can have many shifts.
 When you create a new shift you have to type in a user ID. If user ID doesn't exist shifts can't be made.
 <br>
 
-<a href="https://ibb.co/wzQYtSb"><img src="https://i.ibb.co/d5p7ZP3/passwordreset.png" alt="passwordreset" border="0"></a>
-## Reset password <br>
-When password is reset, you can see password token by going into command line and typing rails c then User.last.signed_in(purpose: "password_reset")
 
