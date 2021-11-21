@@ -1,15 +1,18 @@
 # README
 
-## Set up
-Check ruby version: ruby -v <br>
+### Getting Started
+If you don't have ruby <br>
 Install ruby: rubyinstaller.org <br>
 Install rails: gem install rails <br>
 
-## Install dependencies 
-bundle install
+## To get started with the application, clone the repo and install need gems: <br>
+bundle install <br>
 
-## Run application
-run server: rails s <br>
+## Next, migrate your database: <br>
+rails db:migrate <br>
+
+## Run the application in the local server <br>
+rails s <br>
 In browser type: localhost:3000
 
 ## Not finished
