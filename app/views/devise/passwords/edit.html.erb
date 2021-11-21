@@ -1,8 +1,16 @@
 <h2>Change your password</h2>
 
-<%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f| %>
-  <%= render "devise/shared/error_messages", resource: resource %>
-  <%= f.hidden_field :reset_password_token %>
+# errors are kept inside model record
+
+<%= form_with model @user, url: devise_password_edit_path(token: params[:token]) do |f| %>
+  <% if form.object.errors.any? %>
+    <div class "alert alert-danger">
+      <% form.object.errors.full_messages.each do |messages| %>
+        <div><%= message %></div>
+      <%end>
+    </div<
+  <% end %>
+<% end %>
 
   <div class="field">
     <%= f.label :password, "New password" %><br />
