@@ -46,6 +46,8 @@ Password reset shouldn't just be available through command line.
 <br>
 
 ### Login Page
+<br>
+<br>
 
 <a href="https://ibb.co/wzQYtSb"><img src="https://i.ibb.co/d5p7ZP3/passwordreset.png" alt="passwordreset" border="0"></a>
 ### Reset password <br>
